@@ -1,1 +1,2 @@
 convert_files/*
+!convert_files/.gitkeep
