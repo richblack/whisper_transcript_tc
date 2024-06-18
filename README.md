@@ -1,5 +1,5 @@
 # 說明
-[English Version](README.md)
+[English Version](README_EN.md)
 
 OpenAI Whisper 可以用來聽打錄音，在研究時需要聽打逐字稿時卻不合用，因為 Whisper 的逐字稿沒有加上標點符號的功能，如果有一篇一個鐘頭的逐字稿，要在每句話後面加上逗號也很辛苦。
 
