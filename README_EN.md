@@ -11,14 +11,16 @@ This program does a few simple things:
 
 You can then download the file and do further processing, such as deleting unnecessary parts, adding paragraphs, or adding periods or exclamation marks.
 
-## Usage
-* Download the Whisper_TraditionalChinese.ipynb file, which is a Jupyter Notebook format
-* Using it locally
-  * Install Anaconda and you can use JupyterLab
-  * Use other editors like Visual Studio Code, which will automatically install the Jupyter Notebook plugin
-  * Requires a local Python environment
-* Using it in the cloud
-  * Can consider running it on Google Colab, by connecting from Google Drive
+## Usage Instructions
+
+* Download all the files. The main program is "Whisper_TraditionalChinese.ipynb", which is in JupyterNotebook format.
+* Using it locally:
+  * After installing Anaconda on your local computer, you can open JupyterLab to use it.
+  * If you use other editors on your local computer, such as Visual Studio Code, it will automatically install the JupyterNotebook plugin * for you to edit.
+  * You need to install the Python environment on your local machine.
+* Using it on the cloud:
+  * You can consider running it on Google Colab by generating a connection from Google Drive.
+* Put the files you want to convert into the "convert_files/" folder, and then you can execute the program.
 
 ## Testing
 I tested a 40.42 second, 13.2 MB interview recording, with the following results:
@@ -40,3 +42,4 @@ I tested a 40.42 second, 13.2 MB interview recording, with the following results
 * 20240612: Resolved the issue with relative paths not being usable on PC.
 * 20240613: Added the ability to automatically convert audio files to MP3 format. Tested with WAV (voice recorder), MP4 (video recordings from meeting software), and M4A (Apple recording format).
 * 20240614: Convert video to MP3 function added, Install and Update libs version simplify.
+* 20240618: Added the ability to recognize the source as a video or audio file to speed up the conversion process. Added the "convert_files/" folder to separate the converted files from the program code.
