@@ -19,7 +19,7 @@ You can then download the file and do further processing, such as deleting unnec
   * If you use other editors on your local computer, such as Visual Studio Code, it will automatically install the JupyterNotebook plugin * for you to edit.
   * You need to install the Python environment on your local machine.
 * Using it on the cloud:
-  * You can consider running it on Google Colab by generating a connection from Google Drive.
+  * You can consider running it on [Google Colab](https://colab.research.google.com/?hl=zh-tw) by generating a connection from Google Drive.
 * Put the files you want to convert into the "convert_files/" folder, and then you can execute the program.
 
 ## Testing
